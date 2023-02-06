@@ -10,8 +10,6 @@ METADATA_TEMP_FILE=${TMPDIR}metadata.txt
 ## Function definitions
 
 function doWork() {
-  echo "original file: [$1], new file [$2]"
-  
   srcfilename=$1
   destfilename=$2
   
